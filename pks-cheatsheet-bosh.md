@@ -21,3 +21,6 @@ bosh -e \<ENV-NAME\> -d \<DEPLOYMENT-ID\> stop \<VM-ID\>
 
 ### BOSH SSH
 bosh -e \<ENV-NAME\> -d \<DEPLOYMENT-ID\> ssh \<VM-ID\>
+
+### BOSH デバッグ
+bosh -e \<ENV-NAME\> t \<TASK-ID\> --debug
