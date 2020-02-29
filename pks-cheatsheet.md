@@ -10,7 +10,7 @@ uaac target https://**PKS-FQDN**:8443 --ca-cert /var/tempest/workspaces/default/
 uaac token client get admin -s **SECRET**  
 
 ### PKS User作成
-uaac user add **USERID** --emails **EMAILADDRESS** -p PASSWORD  
+uaac user add **USERID** --emails **EMAILADDRESS** -p **PASSWORD**  
 
 ### UAA Scopeのアサイン
 uaac member add **UAASCOPE** **USERID**  
